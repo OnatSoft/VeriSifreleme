@@ -20,7 +20,7 @@ namespace VeriSifreleme_13
         }
 
         Random rast = new Random();
-        SqlConnection baglan = new SqlConnection(@"Data Source=LAPTOP-ONATSOFT\ONATSOFT;Initial Catalog=TestDB;Integrated Security=True");
+        SqlConnection baglan = new SqlConnection(@"");
 
         private void Form1_Load(object sender, EventArgs e)
         {
